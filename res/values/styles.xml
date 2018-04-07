@@ -36,6 +36,7 @@
     </style>
 
     <style name="SettingsTheme" parent="@android:style/Theme.DeviceDefault.Settings"></style>
+        <item name="workspaceStatusBarScrim">@drawable/workspace_bg_dark</item>
 
     <style name="WidgetContainerTheme" parent="@android:style/Theme.DeviceDefault.Settings">
         <item name="android:colorEdgeEffect">?android:attr/textColorSecondary</item>
