@@ -58,12 +58,12 @@
             android:entryValues="@array/adaptive_icon_mask_values"
             android:persistent="true"
             android:dependency="pref_adaptiveIcons"
-            android:defaultValue="@string/icon_mask_square_string" />
+            android:defaultValue="@string/icon_mask_squircle_string" />
 
         <SwitchPreference
             android:key="pref_legacyIcons"
             android:title="@string/legacy_icons_title"
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:persistent="true"
             android:dependency="pref_adaptiveIcons" />
 
@@ -101,7 +101,7 @@
         <SwitchPreference
             android:key="pref_showDarkTheme"
             android:title="@string/show_dark_theme_title"
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:persistent="true" />
 
     </PreferenceCategory>
@@ -162,7 +162,7 @@
             android:key="pref_searchBar"
             android:title="@string/show_search_bar_title"
             android:summary="@string/show_search_bar_summary"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:persistent="true" />
 
         <ListPreference
