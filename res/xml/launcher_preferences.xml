@@ -58,7 +58,7 @@
             android:entryValues="@array/adaptive_icon_mask_values"
             android:persistent="true"
             android:dependency="pref_adaptiveIcons"
-            android:defaultValue="@string/icon_mask_squircle_string" />
+            android:defaultValue="@string/icon_mask_circle_string" />
 
         <SwitchPreference
             android:key="pref_legacyIcons"
@@ -171,7 +171,7 @@
             android:entries="@array/show_search_bar_location_names"
             android:entryValues="@array/show_search_bar_location_values"
             android:persistent="true"
-            android:defaultValue="0"
+            android:defaultValue="1"
             android:dependency="pref_searchBar"/>
 
         <SwitchPreference
